@@ -101,7 +101,7 @@ export default class App extends Component {
           {/*News Section*/}
           <View style={{paddingTop: 16, paddingHorizontal: 16}}>
             <View>
-              <Image source={require('./dummy/sepak-bola.jpg')} style={{height: 170, width: '100%', borderRadius: 6}}/>
+              <Image source={require('./dummy/sepak-bola.jpg')} style={{height: 200, width: '100%', borderRadius: 6}}/>
             </View>
             <View style={{paddingTop: 16, paddingBottom: 20}}>
               <Text style={{fontSize: 16, fontWeight: 'bold', color: '#1C1C1C'}}>GO-NEWS</Text>
