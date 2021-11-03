@@ -168,31 +168,31 @@ export default class App extends Component {
             </View>
             <ScrollView horizontal style={{flexDirection: 'row', paddingLeft: 16}}>
               <View style={{marginRight: 16}}>
-                <View style={{width: 150, height: 150, borderRadius: 8, backgroundColor: 'pink'}}>
+                <View style={{width: 150, height: 150, borderRadius: 8}}>
                   <Image source={require('./dummy/go-food-kfc.jpg')} style={{width: undefined, height: undefined, resizeMode: 'cover', flex: 1, borderRadius: 8}}/>
                 </View>
                 <Text style={{fontSize: 16, fontWeight: 'bold', color: '#1C1C1C', marginTop: 12}}>KFC Aeon Mall</Text>
               </View>
               <View style={{marginRight: 16}}>
-                <View style={{width: 150, height: 150, borderRadius: 8, backgroundColor: 'pink'}}>
+                <View style={{width: 150, height: 150, borderRadius: 8}}>
                   <Image source={require('./dummy/go-food-gm.jpg')} style={{width: undefined, height: undefined, resizeMode: 'cover', flex: 1, borderRadius: 8}}/>
                 </View>
                 <Text style={{fontSize: 16, fontWeight: 'bold', color: '#1C1C1C', marginTop: 12}}>Bakmi GM Aeon Mall</Text>
               </View>
               <View style={{marginRight: 16}}>
-                <View style={{width: 150, height: 150, borderRadius: 8, backgroundColor: 'pink'}}>
+                <View style={{width: 150, height: 150, borderRadius: 8}}>
                   <Image source={require('./dummy/go-food-orins.jpg')} style={{width: undefined, height: undefined, resizeMode: 'cover', flex: 1, borderRadius: 8}}/>
                 </View>
                 <Text style={{fontSize: 16, fontWeight: 'bold', color: '#1C1C1C', marginTop: 12}}>Martabak Orins</Text>
               </View>
               <View style={{marginRight: 16}}>
-                <View style={{width: 150, height: 150, borderRadius: 8, backgroundColor: 'pink'}}>
+                <View style={{width: 150, height: 150, borderRadius: 8}}>
                   <Image source={require('./dummy/go-food-banka.jpg')} style={{width: undefined, height: undefined, resizeMode: 'cover', flex: 1, borderRadius: 8}}/>
                 </View>
                 <Text style={{fontSize: 16, fontWeight: 'bold', color: '#1C1C1C', marginTop: 12}}>Martabak Banka</Text>
               </View>
               <View style={{marginRight: 16}}>
-                <View style={{width: 150, height: 150, borderRadius: 8, backgroundColor: 'pink'}}>
+                <View style={{width: 150, height: 150, borderRadius: 8}}>
                   <Image source={require('./dummy/go-food-pak-boss.jpg')} style={{width: undefined, height: undefined, resizeMode: 'cover', flex: 1, borderRadius: 8}}/>
                 </View>
                 <Text style={{fontSize: 16, fontWeight: 'bold', color: '#1C1C1C', marginTop: 12}}>Ayam Bakar Pak Boss</Text>
