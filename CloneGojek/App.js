@@ -198,11 +198,11 @@ export default class App extends Component {
                 <Text style={{fontSize: 16, fontWeight: 'bold', color: '#1C1C1C', marginTop: 12}}>Ayam Bakar Pak Boss</Text>
               </View>
             </ScrollView>
-            <View style={{borderBottomColor: '#E8E9ED', borderBottomWidth: 1, marginTop: 16, marginBottom: 20}}></View>
+            <View style={{borderBottomColor: '#E8E9ED', borderBottomWidth: 1, marginTop: 16, marginHorizontal: 16, marginBottom: 20}}></View>
           </View>
         </ScrollView>
         {/*Menu Informasi Pengguna*/}
-        <View style={{height: 54, flexDirection: 'row', backgroundColor: 'white'}}>
+        <View style={{height: 54, flexDirection: 'row', backgroundColor: '#F1F1F1'}}>
           <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
             <Image style={{width: 26, height: 26}} source={require('./icon/home-active.png')}/>
             <Text style={{fontSize: 10, color: '#545454', marginTop: 4, color: '#43AB4A'}}>Home</Text>
