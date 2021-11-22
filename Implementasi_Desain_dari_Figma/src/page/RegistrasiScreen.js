@@ -5,6 +5,7 @@ import {
   View,
   TextInput,
   TouchableOpacity,
+  setText,
 } from 'react-native';
 
 const RegistrasiScreen = ({navigation}) => {

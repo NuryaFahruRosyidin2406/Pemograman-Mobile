@@ -6,6 +6,7 @@ import {
   Image,
   TextInput,
   TouchableOpacity,
+  setText,
 } from 'react-native';
 
 const Transfer2 = ({navigation}) => {
