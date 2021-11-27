@@ -6,7 +6,7 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import SplashScreen from './src/page/SplashScreen';
 import LoginScreen from './src/page/LoginScreen';
-import RegistrasiScreen from './src/page/RegistrasiScreen';
+import RegistrationScreen from './src/page/RegistrationScreen';
 import HomeScreen from './src/page/HomeScreen';
 import TransactionHistoryScreen from './src/page/TransactionHistoryScreen';
 import Profile from './src/page/Profile';
@@ -69,7 +69,7 @@ function Tabs() {
 const App = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="RegistrasiScreen">
+      <Stack.Navigator initialRouteName="RegistrationScreen">
         <Stack.Screen
           name="SplashScreen"
           component={SplashScreen}
@@ -81,8 +81,8 @@ const App = () => {
           options={{headerShown: false}}
         />
         <Stack.Screen
-          name="RegistrasiScreen"
-          component={RegistrasiScreen}
+          name="RegistrationScreen"
+          component={RegistrationScreen}
           options={{
             headerTintColor: 'white',
             headerStyle: {backgroundColor: '#005690'},

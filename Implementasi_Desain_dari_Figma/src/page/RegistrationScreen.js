@@ -8,7 +8,7 @@ import {
   setText,
 } from 'react-native';
 
-const RegistrasiScreen = ({navigation}) => {
+const RegistrationScreen = ({navigation}) => {
   return (
     <View style={{flex: 1, backgroundColor: '#FFFFFF'}}>
       <View style={{marginTop: 150, marginHorizontal: 30}}>
@@ -79,6 +79,6 @@ const RegistrasiScreen = ({navigation}) => {
   );
 };
 
-export default RegistrasiScreen;
+export default RegistrationScreen;
 
 const styles = StyleSheet.create({});
